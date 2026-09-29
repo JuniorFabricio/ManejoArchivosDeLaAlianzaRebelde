@@ -10,4 +10,20 @@
         <maven.compiler.release>25</maven.compiler.release>
         <exec.mainClass>com.mycompany.sistemaarchivosdelaalianzarebelde.SistemaArchivosDeLaAlianzaRebelde</exec.mainClass>
     </properties>
+    
+    <dependencies>
+        <!-- API de Jakarta XML Binding -->
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+
+        <!-- Motor ejecutor de Jakarta XML Binding -->
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>4.0.2</version>
+        </dependency>
+    </dependencies>
 </project>

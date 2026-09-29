@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Personaje id="1">
+    <nombre>Luke Skywalker</nombre>
+    <faccion>Alianza Rebelde</faccion>
+    <rango>Comandante</rango>
+</Personaje>
